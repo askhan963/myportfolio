@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/utils.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Navabar section  -->
+    <div class="container flex bg-prime fixed">
+        <div class="logo">
+            <i class="fa fa-regular fa-gears fa-2x"> <span class="red">As</span></i>
+             <!-- <img src="./logo.png" width="100%" alt="no-logo">  -->
+        </div>
+        <nav class="navbar ">
+            <ul >
+                <li class="flex">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="./skills.html">Skills</a>
+                    <a href="./projs.html">Projects</a>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- View showcase section  -->
+    <section id="home" class="home container bg-prime p-1">
+        <div class="grid g-2 mt-5">
+            <div class="showinfo left mt-10">
+                <div class="sm">Hi there!</div>
+                <h1 class="intro"> I'm Muhammad <span class="red">Awais </span> Khan</h1>
+                <h2 class="text-center"> <span class="red">Web Developer</span>  & <span class="red">Java Programer</span> </h2>
+                <p class="lead world text-center">
+                    Making World Awesome With Web Technologies.
+                </p>
+                <a class="btn btn-second center" href="#contact">Contact Me</a>
+                <div class="icons text-center">
+                    <i class="fa fa-facebook-square fa-3x"></i>
+                    <i class="fa fa-twitter-square fa-3x"></i>
+                    <i class="fa fa-instagram fa-3x"></i>
+                    <i class="fa fa-github fa-3x"></i>
+                    <i class="fa fa-linkedin fa-3x"></i>
+                </div>
+            </div>
+            <div class="img right">
+                <img src="./imgs/awais-img.png" width="100%" alt="No-img">
+            </div>
+        </div>
+    </section>
+
+<!-- about section  -->
+
+    <section id="about" class="home p-3">
+        <div class="mt-10 grid g-4">
+            <div class="img about bg-prime">
+                <!-- <img src="/awais-img-3.png" width="100%" alt="No-img"> -->
+            </div>
+            <div class="showinfo about">
+        <h1 class="heading text-prime mt-2">About Me</h1>
+             <p class="lead p-1"> Student At : Comsats Univarcity Islamabad ,  Abbottabad Campus             </p> 
+                <p class="lead mt-1 p-1">
+                    2 Years + Experience in Java Programming.
+                </p>
+                <p class="lead mt-1 p-1">
+                    10+ Projects in Web Development
+                </p>
+                <p class="lead mt-1 p-1">
+                    From Mianwali
+                </p>
+                <div class="icons">
+                    <i class="fa fa-facebook-square fa-3x"></i>
+                    <i class="fa fa-twitter-square fa-3x"></i>
+                    <i class="fa fa-instagram fa-3x"></i>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section  -->
+<section id="contact" class="p-3">
+    <h1 class="heading text-second text-center">Contact Me</h1>
+    <div class="grid g-2 cont">
+        <img src="./imgs/contact-img.png" alt="No-img">
+        <div class="card">
+            <form class="text-center" action="#" method="post">
+              
+                <input type="text" name="name" id="name" placeholder="Enter name">
+                <br>
+              
+                <input type="email" name="email" id="email" placeholder="enter Email here..">
+                
+                
+                <br>
+                <textarea name="msg" id="msg" placeholder="Enter msg here.."></textarea>
+                <br>
+                <input class="send" type="submit" value="Send">
+            </form>
+            <div class="icons">
+                <i class="fa fa-facebook-square fa-3x"></i>
+                <i class="fa fa-twitter-square fa-3x"></i>
+                <i class="fa fa-instagram fa-3x"></i>
+            </div>
+        </div>
+    </div>
+   
+</section>
+
+<!-- footer section -->
+<section class="p-2 bg-prime">
+<div class="flex">
+    <div class="logo">
+        <i class="fa fa-regular fa-gears fa-2x"> <span class="red">As</span></i>
+    </div>
+    <div class="footer text-center">
+        <p>
+            All Rights Reseverd
+        </p>
+        Copyright &copy; 2022
+    </div>
+  <div class="love">
+    Made With &#128151; & &#x2615;
+  </div>
+</div>
+</section>
+<script src="./sricpt.js"></script>
+</body>
+</html>
