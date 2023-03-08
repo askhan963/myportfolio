@@ -8,32 +8,42 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles/utils.css">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
     <title>Portfolio</title>
 </head>
 <body>
     <!-- Navabar section  -->
-    <div class="container flex bg-prime fixed">
-        <div class="logo">
-            <i class="fa fa-regular fa-gears fa-2x"> <span class="red">As</span></i>
-             <!-- <img src="./logo.png" width="100%" alt="no-logo">  -->
-        </div>
-        <nav class="navbar ">
-            <ul >
-                <li class="flex">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="./skills.html">Skills</a>
-                    <a href="./projs.html">Projects</a>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+
+    <div class="nav bg-prime">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+    <a href="#home" class="nav-title home-btn">
+     AS
+    </a>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  
+  <div class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="./skills.html">Skills</a>
+    <a href="./projs.html">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+    
 
     <!-- View showcase section  -->
+
     <section id="home" class="home container bg-prime p-1">
         <div class="grid g-2 mt-5">
-            <div class="showinfo left mt-10">
+            <div class="showinfo mt-10">
                 <div class="sm">Hi there!</div>
                 <h1 class="intro"> I'm Muhammad <span class="red">Awais </span> Khan</h1>
                 <h2 class="text-center"> <span class="red">Web Developer</span>  & <span class="red">Java Programer</span> </h2>
@@ -57,10 +67,9 @@
 
 <!-- about section  -->
 
-    <section id="about" class="home p-3">
+    <!-- <section id="about" class="home p-3">
         <div class="mt-10 grid g-4">
             <div class="img about bg-prime">
-                <!-- <img src="/awais-img-3.png" width="100%" alt="No-img"> -->
             </div>
             <div class="showinfo about">
         <h1 class="heading text-prime mt-2">About Me</h1>
@@ -82,10 +91,11 @@
                
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Contact section  -->
-<section id="contact" class="p-3">
+
+<!-- <section id="contact" class="p-3">
     <h1 class="heading text-second text-center">Contact Me</h1>
     <div class="grid g-2 cont">
         <img src="./imgs/contact-img.png" alt="No-img">
@@ -111,10 +121,11 @@
         </div>
     </div>
    
-</section>
+</section> -->
 
 <!-- footer section -->
-<section class="p-2 bg-prime">
+
+<!-- <section class="p-2 bg-prime">
 <div class="flex">
     <div class="logo">
         <i class="fa fa-regular fa-gears fa-2x"> <span class="red">As</span></i>
@@ -129,7 +140,7 @@
     Made With &#128151; & &#x2615;
   </div>
 </div>
-</section>
+</section> -->
 <script src="./sricpt.js"></script>
 </body>
 </html>
